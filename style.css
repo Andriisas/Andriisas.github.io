@@ -59,6 +59,8 @@ align-items: center;
 .h1{
 font-family: 'Indie Flower', cursive;
 font-size: 60px;
+color:black;
+ text-shadow:0px 0px 20px #00c6ff
 
 
 }
@@ -67,9 +69,10 @@ font-size: 60px;
 font-family: 'Indie Flower', cursive;
 font-size: 60px;
 margin: 5% 0px 0px 15%;
-background: url("dekostoff-blaetter-dunkelblau_1390-008_2.jpg");
+
 width:250px;
 border-radius: 10px;
+text-shadow: 4px 3px 0px white, 9px 8px 0px rgba(0,0,0,0.15);
 
 
 }
@@ -85,14 +88,85 @@ width: 5px;
 height: 50px;
 }
 
-.Our_photos{
+.Our_songs{
 flex-direction: column;
 }
 
-.Our_songs{
+.Our_photos{
 flex-direction: row;
 width:150px;
 height:150px;
+border-radius: 10px;
+
+}
+.Songs_Photos{
+border:4px double black;
+width: 20%;
+}
+
+.Name_Song{
+
+  text-shadow: 1px 1px 1px silver,
+               -1px 1px 1px silver;
+  color: white;
+  transition: all .5s;
+
+  font-family: 'Courgette', cursive;
+  color: darkblue;
+
+
+  margin: 2% 0px 0px 5%;
+  font-size:30px;
+}
+
+.Youtube_ico{
+width: 12%;
+height:10%;
+float: right;
+margin: 2% 5% 0px 0px;
+}
+.Lyrics_ico{
+width: 12%;
+height:75px;
+float: right;
+margin: 2% 7% 0px 0px;
+}
+
+
+
+h2:hover {
+    text-shadow: -1px -1px 1px silver,
+                 1px -1px 1px silver;
+    color: red;
+    }
+
+
+
+
+
+.Song_by{
+font-family: 'Mali', cursive;
+margin: 2% 0px 0px 7%;
+font-size:20px;
+}
+
+.div_menu{
+ display: inline-block;
+ max-width: 100%;
+ height: auto;
+ overflow: hidden;
+}
+
+.Name_Song_div{
+
+width:60%;
+height:70%;
+flex-direction: row;
+
+}
+
+.li_class{
+display: flex;
 }
 
 a {
@@ -102,4 +176,12 @@ a {
 
 body{
 background: url("50-Beautiful-and-Minimalist-Presentation-Backgrounds-04.jpg");
+}
+
+.Body_index3{
+background: url("background.jpg");
+}
+
+.Index3_h1{
+font-size:50px;
 }
