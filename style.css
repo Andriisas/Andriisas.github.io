@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+
+}
+
+
+.example__popup{
+
+}
+/* Style the search field */
+form.example input[type=text] {
+  align: center;
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width:80%;
+  background: #f1f1f1;
+
+}
+
+/* Style the submit button */
+form.example button {
+
+  float: left;
+  width: 20%;
+  padding: 10px ;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+
+}
+
+form.example button:hover {
+  background: #0b7dda;
+
+}
+
+/* Clear floats */
+form.example::after {
+
+  content: "";
+  clear: both;
+  display: table;
+
+}
+.div {
+margin:5%;
+width: 90%;
+height: 400px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+.h1{
+font-family: 'Indie Flower', cursive;
+font-size: 60px;
+
+
+}
+
+.Top_Results{
+font-family: 'Indie Flower', cursive;
+font-size: 60px;
+margin: 5% 0px 0px 15%;
+background: url("dekostoff-blaetter-dunkelblau_1390-008_2.jpg");
+width:250px;
+border-radius: 10px;
+
+
+}
+
+.h2{
+font-family: 'Indie Flower', cursive;
+font-size: 25px;
+
+}
+
+.nd_page_Photo{
+width: 5px;
+height: 50px;
+}
+
+.Our_photos{
+flex-direction: column;
+}
+
+.Our_songs{
+flex-direction: row;
+width:150px;
+height:150px;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+body{
+background: url("50-Beautiful-and-Minimalist-Presentation-Backgrounds-04.jpg");
+}
